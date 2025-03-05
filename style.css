@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800,900&display=swap");
-dosyada degisiklik yapildi * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,9 +7,15 @@ dosyada degisiklik yapildi * {
   scroll-behavior: smooth;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 .toggle {
   position: fixed;
-  top: 30px;
+  top: 15px;
+  bottom: 40px;
   right: 30px;
   width: 50px;
   height: 50px;
@@ -432,7 +438,8 @@ p {
   }
 
   .toggle {
-    right: 40px;
+    width: 15%;
+    left: 90%;
   }
 
   .sci {
@@ -445,6 +452,7 @@ p {
 
   .about .content {
     flex-direction: column;
+    width: 100%;
   }
 
   .about .content .textBx {
